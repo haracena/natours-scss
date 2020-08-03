@@ -1,0 +1,13 @@
+/* box-sizing: border-box; sin este estilo, el padding y el margin se agregan al modelo de caja */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  //defines what 1 rem is
+  font-size: 62.5%;
+}
